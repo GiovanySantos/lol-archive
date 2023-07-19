@@ -9,10 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "eslint": "8.45.0",
+    "@babel/core": "^7.22.9",
     "eslint-config-next": "13.4.10",
     "next": "13.4.10",
+    "prettier": "^3.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   }
 }
