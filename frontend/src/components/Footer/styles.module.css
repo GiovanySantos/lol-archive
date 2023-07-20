@@ -1,3 +1,11 @@
 .footer {
-  padding: 10px;
+  display:flex;
+  justify-content: center;
+  font-weight: bold;
+
+  padding: 12px;
+  font-size: 2rem;
+
+  background: #132325;
+  color: #BFAD63;
 }
