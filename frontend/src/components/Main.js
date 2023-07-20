@@ -1,8 +1,12 @@
-export default function Main() {
+'use client';
+
+export default function Main({ id }) {
   return (
     <main>
       <p>Search</p>
-      <input type='text' value='' />
+      <button onClick={() => console.log(id)}>
+        Selecionar Personagem {id}
+      </button>
     </main>
   );
 }
