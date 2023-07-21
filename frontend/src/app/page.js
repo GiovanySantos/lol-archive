@@ -7,9 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <Main id='1' />
-      <Main id='2' />
-      <Main id='3' />
+      <Main />
       <Footer />
     </div>
   );

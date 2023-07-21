@@ -1,3 +1,30 @@
 .main {
-  background-image: url('/background.jpg') ;
+  background-image: url('/background.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.search {
+  padding: 12px;
+}
+.search p {
+  font-weight: bold;
+  font-size: 24px;
+  color: #bfad63;
+  text-shadow:
+    0 0 3px #000,
+    0 0 5px #000;
+}
+.search input {
+  background-color: #132325;
+  border: none;
+  color: #bfad63;
+  padding: 8px;
+}
+.search input:focus {
+  outline: none;
 }
