@@ -1,18 +1,15 @@
-'use client';
-import { useState } from 'react';
 import S from './styles.module.css';
+import Card from '../Card';
+import Search from '../Search';
 
 export default function Main() {
-  const [searchValue, setSearchValue] = useState('');
   return (
     <main className={S.main}>
       <div className={S.search}>
-        <p>Search</p>
-        <input
-          id='search'
-          value={searchValue}
-          onChange={e => setSearchValue(e.target.value)}
-        />
+        <Search />
+      </div>
+      <div>
+        <Card />
       </div>
     </main>
   );

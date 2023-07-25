@@ -1,0 +1,17 @@
+.label {
+  font-weight: bold;
+  font-size: 24px;
+  color: #bfad63;
+  text-shadow:
+    0 0 3px #000,
+    0 0 5px #000;
+}
+.input {
+  background-color: #132325;
+  border: none;
+  color: #bfad63;
+  padding: 8px;
+}
+.input input:focus {
+  outline: none;
+}
